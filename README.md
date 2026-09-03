@@ -8,10 +8,10 @@ That's why I got interested in .NET's ecosystem, because it seems to offer a str
 ## WORK ORGANIZATION
 I'll create a directory for every topic covered by the exam:
 
-- Plan and implement data platform resources (15–20%)
-- Implement a secure environment (20–25%)
-- Monitor, configure, and optimize database resources (20–25%)
-- Configure and manage automation of tasks (15–20%)
-- Plan and configure a high-availability and disaster-recovery (HA/DR) environment (20–25%)
+- **Topic One -** Plan and implement data platform resources (15–20%)
+- **Topic Two -** Implement a secure environment (20–25%)
+- **Topic Three -** Monitor, configure, and optimize database resources (20–25%)
+- **Topic Four -** Configure and manage automation of tasks (15–20%)
+- **Topic Five -** Plan and configure a high-availability and disaster-recovery (HA/DR) environment (20–25%)
 
 Once I complete a topic, I'll create the next directory.
