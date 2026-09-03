@@ -1,0 +1,3 @@
+[submodule "Azure-DP-300-Study-Guide"]
+	path = Azure-DP-300-Study-Guide
+	url = https://github.com/AzureMentor/Azure-DP-300-Study-Guide.git
