@@ -2,12 +2,12 @@
 
 [Doc](https://learn.microsoft.com/en-us/training/paths/plan-implement-data-platform-resources/)
 
-## Paas
+## PaaS
 
 ### Azure SQL Database
 
 ### Azure SQL Managed Instance
 
-## Iaas
+## IaaS
 
 ### SQL Server on Azure VM
