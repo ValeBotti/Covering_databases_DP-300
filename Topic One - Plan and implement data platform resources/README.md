@@ -14,28 +14,56 @@ This module focuses on ways to provision and deploy Azure SQL Database and Azure
 
 The PaaS offering provides less granular control over the infrastructure. It also relegates management of the underlying components (memory, CPU, storage, operating system, etc.) to Microsoft Azure.
 
-**Explain PaaS options for deploying SQL Server in Azure:**
+**Explain PaaS options for deploying SQL Server in Azure - What's there vs what's not**
+When choosing between Azure SQL Database and Managed Instance, the key is understanding what each service provides and what it does not.
+This section highlights the architectural differences that impact compatibility, migrations, and application design.
 
 ### Azure SQL Database
+
+**What's there:**
 - Built upon the SQL Server engine.
-- Runs in the Azure cloud environment as a **multi‑tenant** PaaS service.
-- Hosted on a **logical server** (a metadata container for firewall rules, logins, auditing).
-- Low-maintenance PaaS solution (patching, backup, HA handled by Azure).
-- High flexibility for developers: no server/OS management, easy integration with applications.
-- Granular deployment options at scale: Single Database, Elastic Pool, Serverless, Hyperscale, DTU/vCore models.
-- Some advanced SQL Server features aren’t supported (SQL Agent, cross‑database queries, CLR, native backup/restore).
+- Fully managed multi‑tenant PaaS service.
+- Hosted on a logical server (metadata container: firewall, logins, auditing).
+- Automatic management: patching, backups, high availability.
+- Flexible deployment models:
+  - Single Database
+  - Elastic Pool
+  - Serverless (auto‑scale, auto‑pause)
+  - Hyperscale (up to 100 TB)
+  - DTU or vCore purchasing models
+- Ideal for modern applications: no OS or server management required.
+
+**What's not there:**
+- No SQL Server instance (no master/msdb, no instance‑level features).
+- No SQL Agent (no scheduled jobs).
+- No cross‑database queries (databases are isolated).
+- No linked servers.
+- No CLR integration.
+- No native backup/restore (.bak).
+- No access to mdf/ldf files.
+- No private VNet (only public endpoint + firewall rules).
 
 ### Azure SQL Managed Instance
-- Built upon the SQL Server engine, fully managed in the Azure cloud.
-- Single‑tenant architecture with near 100% SQL Server compatibility.
-- Ideal for migration scenarios: supports native backup/restore, SQL Agent, cross‑database queries, linked servers.
-- Low‑maintenance PaaS solution (patching, backups, HA/DR handled by Azure).
-- Runs inside a private virtual network (VNet) with a dedicated subnet for isolation and security.
-- Supports the vCore purchasing model (General Purpose, Business Critical).
-- Provides advanced business continuity options: failover groups, geo‑replication.
-- Suitable for enterprise workloads requiring full SQL Server capabilities without managing servers or OS.
 
+**What's there:**
+- Built on the full SQL Server engine (near 100% compatibility).
+- Real SQL Server instance: master, msdb, SQL Agent, instance‑level features.
+- Single‑tenant architecture (isolated environment).
+- Native backup/restore (.bak) support.
+- SQL Agent for scheduled jobs.
+- Cross‑database queries.
+- Linked servers.
+- Runs inside a private VNet with a dedicated subnet.
+- vCore model: General Purpose, Business Critical.
+- Advanced business continuity: failover groups, geo‑replication.
+- Ideal for enterprise migrations without rewriting the application.
 
+**What's not there:**
+- No access to the operating system (OS fully managed by Azure).
+- No direct access to mdf/ldf files (storage abstracted).
+- No hardware management (fully PaaS).
+- No DTU model (vCore only).
+- No free‑form networking (must use VNet/subnet architecture).
 
 ## IaaS
 
