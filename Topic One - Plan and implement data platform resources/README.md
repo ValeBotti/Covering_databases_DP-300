@@ -1,4 +1,4 @@
-# PLAN AND IMPLEMENT DATA PLATFORM RESOURCES - PLAN!
+# PLAN AND IMPLEMENT DATA PLATFORM RESOURCES - PLAN! (first things first: planning and scheming)
 
 ## A) Layers: Physical - Virtual - Cloud Service Models (IaaS, PaaS, SaaS)
 ![Cloud Service Models](cloud_service_models.png)
