@@ -6,7 +6,7 @@
 ## PaaS - Azure SQL Database And Azure SQL Managed Instance
 This module focuses on ways to provision and deploy Azure SQL Database and Azure SQL Managed Instances, as well as provide guidance on the various options when performing a migration to these platforms.
 
-- Gain an understanding of SQL Server in a Platform as a Service ([PaaS](https://learn.microsoft.com/en-us/training/modules/deploy-paas-solutions-with-azure-sql/))] offering
+- Gain an understanding of SQL Server in a Platform as a Service ( [PaaS](https://learn.microsoft.com/en-us/training/modules/deploy-paas-solutions-with-azure-sql/) ) offering
 - Understand PaaS provisioning and deployment options
 - Understand elastic pools and hyperscale features
 - Examine Azure SQL Managed Instances
