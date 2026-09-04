@@ -1,6 +1,6 @@
 # PLAN AND IMPLEMENT DATA PLATFORM RESOURCES
 
-## Cloud Service Models - IaaS, PaaS, SaaS
+## Layers: Physical - Virtual - Cloud Service Models (IaaS, PaaS, SaaS)
 ![Cloud Service Models](cloud_service_models.png)
 
 ## [PaaS](https://learn.microsoft.com/en-us/training/modules/deploy-paas-solutions-with-azure-sql/)
