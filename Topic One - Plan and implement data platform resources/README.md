@@ -1,6 +1,6 @@
 # <p align="center">PLAN AND IMPLEMENT DATA PLATFORM RESOURCES</p>
 ### <p align="center">WE NEED A PLAN! - first things first: planning and scheming</p>
-<p align="center">I need to deploy a database with Azure; what are the solutions available, and which one is the best fit for my scenario?</p>
+<p align="center">I need to deploy a database with Azure; what are the solutions available?</p>
 
 ## A) Layers: Physical - Virtual - Cloud Service Models (IaaS, PaaS, SaaS)
 ![Cloud Service Models](cloud_service_models.png)
