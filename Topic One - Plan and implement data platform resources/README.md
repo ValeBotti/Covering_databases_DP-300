@@ -1,7 +1,7 @@
 # PLAN AND IMPLEMENT DATA PLATFORM RESOURCES
 
 ## Cloud Service Models - IaaS, PaaS, SaaS
-![Cloud Service Models](Topic One - Plan and implement data platform resources/cluod_service_models.png)
+![Cloud Service Models](.../cluod_service_models.png)
 
 ## [PaaS](https://learn.microsoft.com/en-us/training/modules/deploy-paas-solutions-with-azure-sql/)
 This module focuses on ways to provision and deploy Azure SQL Database and Azure SQL Managed Instances, as well as provide guidance on the various options when performing a migration to these platforms.
