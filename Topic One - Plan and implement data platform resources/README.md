@@ -16,6 +16,7 @@ The PaaS offering provides less granular control over the infrastructure. It als
 When choosing between Azure SQL Database and Managed Instance, the key is understanding what each service provides and what it does not. <br>
 This section highlights the architectural differences that impact compatibility, migrations, and application design.
 <u>─────────────────────────────────────────────────────────────────────────────────────────</u>
+
 ### > Azure SQL Database
 
 **What's there:**
@@ -26,7 +27,7 @@ This section highlights the architectural differences that impact compatibility,
 4. Automatic management: patching, backups, high availability. <br>
 5. Flexible deployment models:
     - Single Database
-    - Elastic Pool
+    - Elastic Pool — shared DTU/vCore resources across multiple databases with variable, non‑synchronized usage patterns; ideal for multi‑tenant scenarios with many small databases
     - Serverless (auto‑scale, auto‑pause)
     - Hyperscale (up to 100 TB)
     - DTU or vCore purchasing models <br> 
@@ -38,7 +39,7 @@ This section highlights the architectural differences that impact compatibility,
 2. No SQL Agent (no scheduled jobs). <br>
 3. No cross‑database queries (databases are isolated). <br>
 4. No linked servers. <br>
-5. No CLR integration. <br>
+5. No CLR integration (only "safe" CLR assemblies are supported; "unsafe" / "external access" CLR is not). <br>
 6. No native backup/restore (.bak). <br>
 7. No access to mdf/ldf files. <br>
 8. No private VNet (only public endpoint + firewall rules). <br>
@@ -57,7 +58,9 @@ This section highlights the architectural differences that impact compatibility,
 6. Cross‑database queries. <br>
 7. Linked servers. <br>
 8. Runs inside a private VNet with a dedicated subnet. <br>
-9. vCore model: General Purpose, Business Critical. <br>
+9. vCore model:
+    - General Purpose — remote storage (Azure Premium Storage), lower cost
+    - Business Critical — local SSD storage, built‑in synchronous replica (includes a readable secondary), lower latency <br>
 10. Advanced business continuity: failover groups, geo‑replication. <br>
 11. Ideal for enterprise migrations without rewriting the application. <br>
 
@@ -77,8 +80,11 @@ The most common reason for deploying SQL Server in an Azure Virtual Machine (VM)
 Infrastructure as a Service (IaaS) allows for greater flexibility in configuration. This flexibility means that you (not me LOL), as a database administrator, must plan your configuration carefully. Choosing the proper VM sizing, storage, and networking options is crucial to ensure adequate performance for your workloads.
 
 <u>─────────────────────────────────────────────────────────────────────────────────────────</u>
+
 ### > SQL Server on Azure VM
+
 **What's there**
+
 1. Full SQL Server instance: <br>
   Complete access to the SQL Server engine, system databases (master, msdb, model), tempdb, and all instance‑level features—just like on‑premises. <br>
 2. Full operating system access: <br>
@@ -102,14 +108,12 @@ Infrastructure as a Service (IaaS) allows for greater flexibility in configurati
       - Disk utilization insights <br>
       - Flexible licensing <br>
       - SQL best practices assessment <br>
-
 9. Flexible licensing options:
     - Pay‑as‑you‑go SQL Server images <br>
     - Bring Your Own License (BYOL) <br>
-    - Software Assurance benefits <br>
-    - Azure Hybrid Benefit (Windows + SQL) <br>
+    - Software Assurance benefits — prerequisite for accessing Azure Hybrid Benefit <br>
+    - Azure Hybrid Benefit (Windows + SQL) — the actual cost discount unlocked by having Software Assurance <br>
     - Reserved VM instances (1–3 years) <br>
-
 10. Multiple VM families for every workload: <br>
   General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, GPU, HPC, FPGA.
 11. Azure Marketplace templates: <br>
