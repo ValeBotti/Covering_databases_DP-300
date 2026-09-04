@@ -38,9 +38,6 @@ This section highlights the architectural differences that impact compatibility,
   
 6 - Ideal for modern applications: no OS or server management required.
 
-5 - *Flexible Deployment models*
-Azure SQL Database is available in two different deployment models:
-
 **What's not there:**
 
 1 - No SQL Server instance (no master/msdb, no instance‑level features). <br>
