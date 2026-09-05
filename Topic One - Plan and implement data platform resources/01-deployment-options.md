@@ -3,7 +3,7 @@
 <p align="center">I need to deploy a database with Azure; what are the solutions available?</p>
 
 ## A) Layers: Physical - Virtual - Cloud Service Models (IaaS, PaaS, SaaS)
-![Cloud Service Models](cloud_service_models.png)
+![Cloud Service Models](./image/cloud_service_models.png)
 
 ## B) PaaS - Azure SQL Database And Azure SQL Managed Instance
 Let's get a grip on what the PaaS options actually are and what they provide. <br>
