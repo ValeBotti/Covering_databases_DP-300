@@ -1,10 +1,10 @@
 # PLAN AND IMPLEMENT DATA PLATFORM RESOURCES
 
-### <p align="center">Implementing data platform resources: customization</p>
+### Implementing data platform resources: customization
 
 ## <p align="center">PaaS</p>
 
-### > Azure SQL Database
+### <p align="center">> Azure SQL Database</p>
 
 #### Customization options
 - Deployment models
@@ -206,6 +206,6 @@
 <ins>WHEN TO CHOOSE THIS:</ins><br>
 * Already own SQL Server licenses with active Software Assurance and want to reduce Azure compute costs.
 
-### > Azure SQL Managed Instance
+### <p align="center">> Azure SQL Managed Instance</p>
 
 **Customization options:**
