@@ -10,7 +10,7 @@ That's why I got interested in .NET's ecosystem, because it seems to offer a str
 ## WORK ORGANIZATION
 I'll create a directory for every topic covered by the exam:
 
-- ### 📘 [Topic One — Plan & Implement Data Platform Resources](./Topic One - Plan and implement data platform resources/)
+- ### 📘 [Topic One — Plan & Implement Data Platform Resources](./Topic%20One%20-%20Plan%20and%20implement%20data%20platform%20resources/)
 - **Topic Two -** Implement a secure environment (20–25%)
 - **Topic Three -** Monitor, configure, and optimize database resources (20–25%)
 - **Topic Four -** Configure and manage automation of tasks (15–20%)
