@@ -1,5 +1,7 @@
 # Covering_databases_DP-300
 
+> This repository is a personal study guide for the DP‑300 exam. It tracks both the official concepts and the practical steps I needed to take in order to deeply explore them. The goal is to build a reference that remains useful over time — something I can revisit when facing real‑world scenarios with a more experienced and structured outlook.
+
 Given that I want to improve as a backend dev, I need to do a deep dive into databases. 
 
 Here's the material I collected and expanded to study for the Microsoft DP-300 certification; it gives me the tools to learn a side of development that's not always taught elsewhere.
