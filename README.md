@@ -19,7 +19,7 @@ I'll create a directory for every topic covered by the exam:
 Once I complete a topic, I'll create the next directory.
 
 > This repository is a personal study guide for the DP‑300 exam. It tracks both the official concepts and the practical steps I needed to take in order to deeply explore them. The goal is to build a reference that remains useful over time — something I can revisit when facing real‑world scenarios with a more experienced and structured outlook. <br>
-The goal isn't to become a DBA in a month or ever; it's to be thrown into an unexplored field I've never set foot in and navigate it till the end  of the journey, where experience will be gained (and friends will be made haha).
+The goal isn't to become a DBA in a month or ever; it's to be thrown into an unexplored field I've never set foot in and navigate it till the end  of the journey, where experience will be gained (and friends will be made along the way).
 <p align="center">
   <img src="./you_shall_not_pass.gif" width="600">
 </p>
