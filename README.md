@@ -9,7 +9,7 @@ Here's the material I collected and expanded to study for the Microsoft DP-300 c
 ## WORK ORGANIZATION
 I'll create a directory for every topic covered by the exam:
 
--  ### 📘 [Topic One — Plan & Implement Data Platform Resources](./Topic%20One%20-%20Plan%20and%20implement%20data%20platform%20resources/) | 📝 [Notion notes.](https://app.notion.com/p/Azure-SQL-Database-customization-fa4adbf6a80040a2abcd165473728213)
+-  ### 📘 [Topic One — Plan & Implement Data Platform Resources](./Topic%20One%20-%20Plan%20and%20implement%20data%20platform%20resources/) | 📝 [Notion notes (ITA)](https://app.notion.com/p/Azure-SQL-Database-customization-fa4adbf6a80040a2abcd165473728213)
 - **Topic Two -** Implement a secure environment (20–25%)
 - **Topic Three -** Monitor, configure, and optimize database resources (20–25%)
 - **Topic Four -** Configure and manage automation of tasks (15–20%)
