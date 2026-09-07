@@ -5,7 +5,6 @@
 ## <p align="center">PaaS</p>
 
 ### <p align="center">> Azure SQL Database</p>
-[PORTAL](https://portal.azure.com/#servicemenu/SqlAzureExtension/AzureSqlHub/SingleDatabase)
 
 #### Customization options
 - Deployment models
@@ -36,7 +35,7 @@
 * Create everything inside one dedicated resource group (e.g. `rg-dp300-labs`).
 * Delete the whole resource group at the end of each study session — this zeroes out costs instead of leaving expensive resources (Business Critical, Hyperscale, Elastic Pools) running.
 
-### <p align="center">Session 1 — Single Database basics</p>
+### <p align="center">Session 1 — Single Database basics</p> [PORTAL](https://portal.azure.com/#servicemenu/SqlAzureExtension/AzureSqlHub/SingleDatabase)
 
 #### Single Database — DTU model
 <ins>TASK:</ins><br>
