@@ -1,11 +1,10 @@
 # Covering_databases_DP-300
 
-Given that I want to improve as a backend dev, I need to do a deep dive into databases. 
+I want to improve as a backend dev: I need to do a deep dive into databases. 
 
-Here's the material I collected and expanded to study for the Microsoft DP-300 certification; it gives me the tools to learn a side of development that's not always taught elsewhere.
-That's why I got interested in .NET's ecosystem, because it seems to offer a structured program that's useful for a junior to learn and expand their knowledge.
+Here's the material I collected and expanded to study for the Microsoft DP-300 certification. <br> I got interested in .NET's ecosystem because it offers a structured program that's useful for a junior to expand their knowledge.
 
-**THE GOAL -** it's to take [my teeny-tiny web application](https://github.com/ValeBotti/ASP_NET_Core_Web_API) to deployment, but since I do not have the know-how, I need to teach myself that. Apparently, I do not like to make it simple; I want to do it RIGHT, ahah, that's why I'm here.
+**THE GOAL -** it's to take [my teeny-tiny web application](https://github.com/ValeBotti/ASP_NET_Core_Web_API) to deployment, but since I do not have the know-how, I need to teach myself that. <br> Apparently, I do not like to make it simple; I want to do it RIGHT, ahah, that's why I'm here.
 
 ## WORK ORGANIZATION
 I'll create a directory for every topic covered by the exam:
@@ -18,8 +17,10 @@ I'll create a directory for every topic covered by the exam:
 
 Once I complete a topic, I'll create the next directory.
 
-> This repository is a personal study guide for the DP‑300 exam. It tracks both the official concepts and the practical steps I needed to take in order to deeply explore them. The goal is to build a reference that remains useful over time — something I can revisit when facing real‑world scenarios with a more experienced and structured outlook. <br>
-The goal isn't to become a DBA in a month or ever; it's to be thrown into an unexplored field I've never set foot in and navigate it till the end  of the journey, where experience will be gained (and friends will be made along the way).
+## *Time capsule:*
+> This repository is a personal study guide for the DP‑300 exam. It tracks both the official concepts and the practical steps I needed to take in order to deeply explore them. <br> The goal is to build a reference that remains useful over time — something I can revisit when facing real‑world scenarios with a more experienced and structured outlook. <br> And I definitely won't have the same amount of free time to do it.  <br>
+
+*The goal isn't to become a DBA in a month or ever; it's to be thrown into an unexplored field I've never set foot in and navigate it till the end  of the journey, where experience will be gained (and friends will be made along the way).*
 <p align="center">
   <img src="./you_shall_not_pass.gif" width="600">
 </p>
