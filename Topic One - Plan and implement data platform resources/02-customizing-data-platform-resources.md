@@ -5,6 +5,7 @@
 ## <p align="center">PaaS</p>
 
 ### <p align="center">> Azure SQL Database</p>
+[PORTAL](https://portal.azure.com/#servicemenu/SqlAzureExtension/AzureSqlHub/SingleDatabase)
 
 #### Customization options
 - Deployment models
