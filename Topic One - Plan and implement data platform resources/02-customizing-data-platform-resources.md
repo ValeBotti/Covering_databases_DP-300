@@ -29,13 +29,13 @@
 - Managing pool resources
 - Understanding SQL Database Hyperscale
 
-**<p align="center">Hands-On Scenario Tasks - (DP-300 is a scenario-based exam)</p>**
+**<p align="center">Hands-On Scenario Tasks - (DP-300 is a scenario-based exam) -> [portal](https://portal.azure.com/#servicemenu/SqlAzureExtension/AzureSqlHub/SingleDatabase)</p>** 
 
 <ins>COST TIP — before you start:</ins><br>
 * Create everything inside one dedicated resource group (e.g. `rg-dp300-labs`).
 * Delete the whole resource group at the end of each study session — this zeroes out costs instead of leaving expensive resources (Business Critical, Hyperscale, Elastic Pools) running.
 
-### <p align="center">Session 1 — Single Database basics</p> [PORTAL](https://portal.azure.com/#servicemenu/SqlAzureExtension/AzureSqlHub/SingleDatabase)
+### <p align="center">Session 1 — Single Database basics</p>
 
 #### Single Database — DTU model
 <ins>TASK:</ins><br>
